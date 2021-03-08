@@ -2,21 +2,21 @@ import React, { Component } from "react";
 import Cv from "./Cv";
 import { PDFExport } from "@progress/kendo-react-pdf";
 import ReactGA from "react-ga";
-
+import myImage from "../../img/myself.jpg";
 import Loader from "../Loader/Loader";
 
 function demoAsyncCall() {
-  return new Promise(resolve => setTimeout(() => resolve(), 1500));
+  return new Promise((resolve) => setTimeout(() => resolve(), 1500));
 }
 export class About extends Component {
   state = {
-    loading: true
+    loading: true,
   };
 
   exportPDFWithComponent = () => {
     ReactGA.event({
       category: "Downloads",
-      action: "Downloaded my CV"
+      action: "Downloaded my CV",
     });
     this.pdfExportComponent.save();
   };
@@ -61,7 +61,7 @@ export class About extends Component {
               title=""
               subject=""
               keywords=""
-              ref={component => (this.pdfExportComponent = component)}
+              ref={(component) => (this.pdfExportComponent = component)}
             >
               <Cv />
             </PDFExport>

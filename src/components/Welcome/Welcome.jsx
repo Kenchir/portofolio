@@ -1,18 +1,25 @@
 import React, { Component } from "react";
 import "./Welcome.css";
 import ReactGA from "react-ga";
-
+import myImage from "../../img/myself.jpg";
 export class Welcome extends Component {
   render() {
     return (
       <section className="intro text-center" id="title-section">
         <div className="title-text col-sm-10 col-sm-12 col-lg-12">
           <div>
-            <img
+            {/* <img
               src="https://res.cloudinary.com/do7m8vtor/image/upload/v1579866024/mypic/IMG_20170910_155935.jpg"
               width="200"
               height="200"
               className="rounded-circle mx-auto d-block img-responsive"
+              alt=""
+            /> */}
+            <img
+              src={myImage}
+              width="10%"
+              height="10%"
+              className="rounded mx-auto d-block img-responsive"
               alt=""
             />
             <div class="rank-label-container">
@@ -38,7 +45,7 @@ export class Welcome extends Component {
               onClick={() =>
                 ReactGA.event({
                   category: "Viewing",
-                  action: "Github Profile"
+                  action: "Github Profile",
                 })
               }
               target="_blank"
@@ -49,7 +56,7 @@ export class Welcome extends Component {
               <i
                 class="fab fa-github-square fa-4x p-2"
                 style={{
-                  color: "silver"
+                  color: "silver",
                 }}
               >
                 {" "}
@@ -61,7 +68,7 @@ export class Welcome extends Component {
               onClick={() =>
                 ReactGA.event({
                   category: "Viewing",
-                  action: "LinkedIn Profile"
+                  action: "LinkedIn Profile",
                 })
               }
               target="_blank"
@@ -75,7 +82,7 @@ export class Welcome extends Component {
               onClick={() =>
                 ReactGA.event({
                   category: "Viewing",
-                  action: "StackOverflow Profile"
+                  action: "StackOverflow Profile",
                 })
               }
               target="_blank"
@@ -85,7 +92,7 @@ export class Welcome extends Component {
               <i
                 class="fab fa-stack-overflow fa-4x p-2"
                 style={{
-                  color: "orange"
+                  color: "orange",
                 }}
               >
                 {" "}

@@ -26,7 +26,7 @@ export class Skills extends Component {
                   <div
                     class="progress-bar bg-warning"
                     role="progressbar"
-                    style={{ width: "45%" }}
+                    style={{ width: "65%" }}
                     aria-valuenow="95"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -37,7 +37,7 @@ export class Skills extends Component {
                   <div
                     class="progress-bar bg-warning"
                     role="progressbar"
-                    style={{ width: "25%" }}
+                    style={{ width: "50%" }}
                     aria-valuenow="95"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -59,7 +59,7 @@ export class Skills extends Component {
                   <div
                     class="progress-bar bg-warning"
                     role="progressbar"
-                    style={{ width: "10%" }}
+                    style={{ width: "40%" }}
                     aria-valuenow="90"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -220,7 +220,7 @@ export class Skills extends Component {
                   <div
                     class="progress-bar bg-warning"
                     role="progressbar"
-                    style={{ width: "98%" }}
+                    style={{ width: "30%" }}
                     aria-valuenow="98"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -231,7 +231,7 @@ export class Skills extends Component {
                   <div
                     class="progress-bar bg-warning"
                     role="progressbar"
-                    style={{ width: "97%" }}
+                    style={{ width: "20%" }}
                     aria-valuenow="97"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -242,7 +242,7 @@ export class Skills extends Component {
                   <div
                     class="progress-bar bg-warning"
                     role="progressbar"
-                    style={{ width: "98%" }}
+                    style={{ width: "20%" }}
                     aria-valuenow="98"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -253,7 +253,7 @@ export class Skills extends Component {
                   <div
                     class="progress-bar bg-warning"
                     role="progressbar"
-                    style={{ width: "98%" }}
+                    style={{ width: "30%" }}
                     aria-valuenow="98"
                     aria-valuemin="0"
                     aria-valuemax="100"

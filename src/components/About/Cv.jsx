@@ -1,13 +1,13 @@
 import React from "react";
-
+import myImage from "../../img/myself.jpg";
 class Cv extends React.Component {
   render() {
     return (
       <div className="p-4">
         <img
-          src="https://res.cloudinary.com/do7m8vtor/image/upload/v1579866024/mypic/IMG_20170910_155935.jpg"
-          width="150"
-          height="150"
+          src={myImage}
+          width="40%"
+          height="50%"
           className="rounded mx-auto d-block img-responsive"
           alt=""
         />
@@ -82,13 +82,22 @@ class Cv extends React.Component {
             <b>Profile</b>
           </h6>
           <p className="p-2 text-mute">
-            I am a passionate software developer seeking an entry level position
-            in the industry with over 2 years of experience coding. My main
-            stack is Javascript (MERN) and I also have a little experience with
-            Python on AI and data science. Throughout my time as a software
-            developer( also student), I have worked with small team in school to
-            create applications and projects that optimized systems, saved on
-            cost and improved users' experience.
+            First and foremost, I love writing Code. Ever since writing my first
+            program in C and manipulating it to produce a desired output. I have
+            been obsessed with the idea of using software to solve practical
+            problems. Software engineering is a never ending puzzle that I am
+            passionately engaged in solving. I believe in the power of
+            programming to transform and improve the lives of people around the
+            world.
+            <br></br>
+          </p>
+          <p className="p-2 text-mute">
+            I am a full stack developer with experience building frontend and
+            backend applications using Node js and React js. I also have
+            experience in Machine learning and Data science.<br></br>{" "}
+            Specialities: C, C++, Java, JavaScript, Node.js, React.js Next.js,
+            PHP, Python, Pandas, Numpy, Keras, sklearn,tensorflow, MongoDB,
+            MySQL, Data structures and Algorithms
           </p>
         </div>
         <hr></hr>
@@ -117,7 +126,7 @@ class Cv extends React.Component {
             <div className="col-6 p-1">
               Professional skills
               <hr className="normal-hr-2"></hr>
-              Node js(express)
+              Node js
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
@@ -128,62 +137,7 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              React
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "80%" }}
-                  aria-valuenow="98"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              React Native
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "60%" }}
-                  aria-valuenow="99"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              HTML/CSS/Sass
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "100%" }}
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              Java
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "50%" }}
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="70"
-                ></div>
-              </div>
-              Python
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "35%" }}
-                  aria-valuenow="95"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              MySQL, MongoDB
+              MySQL
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
@@ -194,6 +148,105 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
+              MongoDB
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "90%" }}
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              React Js
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "80%" }}
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Git
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "70%" }}
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="70"
+                ></div>
+              </div>
+              Python (ML)
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "60%" }}
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Python(Flask)-Backend
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "50%" }}
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Laravel
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "30%" }}
+                  aria-valuenow="93"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              HTML/CSS/Sass
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "50%" }}
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Java
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "30%" }}
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="70"
+                ></div>
+              </div>
+              bash
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "20%" }}
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="70"
+                ></div>
+              </div>
             </div>
           </div>
 
@@ -201,6 +254,34 @@ class Cv extends React.Component {
             <h6>
               <b>Work Experience</b>
             </h6>
+            <b>Ada Labs Africa</b>
+            <br></br>
+            <label className="text-muted">January, 2021 - Present</label>
+            <br></br>
+            <p className="pl-2 text-mute">
+              I am a software developer intern at{" "}
+              <a
+                href="https://www.adalabsafrica.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                Adalabs Africa
+              </a>{" "}
+              working with several teammates on a fintech solution known as{" "}
+              <a
+                href="https://www.paylend.africa"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                Paylend Africa
+              </a>{" "}
+              . I am full stack developer working with reacts js, node js and
+              laravel<br></br>
+              <ul className="ml-4"></ul>
+            </p>
+
             <b>TotoSci Academy</b>
             <br></br>
             <label className="text-muted">June, 2019 - August 2020</label>
@@ -218,7 +299,6 @@ class Cv extends React.Component {
               helping the STEAM school develop their school management system. I
               was undertaking my school attachment at this school.
               <br></br>
-              <strong className="text-muted">Projects accomplished</strong>
               <ul className="ml-4"></ul>
             </p>
           </div>
@@ -229,15 +309,17 @@ class Cv extends React.Component {
           <h6>
             <b>Education</b>
           </h6>
-          Bachelor of Science in Computer Science, Multimedia University of
-          Kenya, Nairobi
+          BS Computer Science, Multimedia University of Kenya, Nairobi
           <br></br>
-          <label className="text-muted">
-            September, 2016 - Present(Completion: April, 2020)
+          <label className="text-muted">September, 2016 - October 2020</label>
+          <br></br>
+          <label>
+            <i>First Class Honours</i>
           </label>
           <p className="pl-2 text-mute">
             This course has helped to build my understanding of a wide range of
-            software, and technological ICT skills required by the industry
+            software engineering, data structures and algorithms. It was the
+            building base block to my career.
           </p>
         </div>
 
@@ -247,7 +329,7 @@ class Cv extends React.Component {
             <b>Hobbies</b>
           </h6>
           <p className="pl-2 text-mute">
-            Skating, Swimming, Reading Novels & Research
+            Research, Movies and Tech Documentaries
           </p>
         </div>
 
@@ -257,7 +339,7 @@ class Cv extends React.Component {
             <b>References</b>
           </h6>
           <div className="container row">
-            <div className="col-6 text-mute">
+            {/* <div className="col-6 text-mute">
               Hesbon Kiptoo<br></br>
               IT Manager, Safaricom<br></br>
               hkkiptoo@Safaricom.co.ke<br></br>
@@ -268,7 +350,9 @@ class Cv extends React.Component {
               Lecturer, Kenyatta University<br></br>
               letema.sammy@ku.ac.ke<br></br>
               +254725672255
-            </div>
+            </div> */}
+
+            <p>Available on request</p>
           </div>
         </div>
       </div>
