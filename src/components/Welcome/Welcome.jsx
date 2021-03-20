@@ -78,7 +78,7 @@ export class Welcome extends Component {
               <i class="fab fa-linkedin fa-4x p-2"> </i>
             </a>
             <a
-              href="https://stackoverflow.com/users/10011936/chirchir-kenneth"
+              href="https://stackoverflow.com/users/15065292/kenneth-chirchir"
               onClick={() =>
                 ReactGA.event({
                   category: "Viewing",

@@ -27,18 +27,6 @@ class Cv extends React.Component {
           <br></br>
           <div className="col-md-6 text-center mt-2 mx-auto">
             <a
-              href="https://kenchir.github.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-dark"
-            >
-              <img
-                width="33"
-                src="https://res.cloudinary.com/dw675k0f5/image/upload/e_simulate_colorblind/v1572026291/storo/142-1423933_briefcase-circle-hd-png-download.jpg"
-                alt=""
-              />
-            </a>
-            <a
               href="https://github.com/Kenchir"
               target="_blank"
               rel="noopener noreferrer"
@@ -62,7 +50,7 @@ class Cv extends React.Component {
               />
             </a>
             <a
-              href="https://stackoverflow.com/users/10011936/chirchir-kenneth"
+              href="https://stackoverflow.com/users/15065292/kenneth-chirchir"
               target="_blank"
               rel="noopener noreferrer"
             >
