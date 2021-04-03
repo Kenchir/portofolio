@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Cv from "./Cv";
 import { PDFExport } from "@progress/kendo-react-pdf";
 import ReactGA from "react-ga";
-import myImage from "../../img/myself.jpg";
+
 import Loader from "../Loader/Loader";
 
 function demoAsyncCall() {
